@@ -60,14 +60,6 @@ public class Login_Activity extends AppCompatActivity {
 
 
 
-
-
-
-
-
-
-
-
        btn_login.setOnClickListener(new View.OnClickListener() {
            @Override
            public void onClick(View v) {
@@ -91,8 +83,6 @@ public class Login_Activity extends AppCompatActivity {
 
 
 
-
-
         loginRedirect.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -102,13 +92,6 @@ public class Login_Activity extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
-
-
-
-
-
-
 
 
 
@@ -151,8 +134,7 @@ public class Login_Activity extends AppCompatActivity {
     }
 
 
-
-
+//calling method
     public void Checkuser(){
 
         String userUsername =  login_username.getText().toString().trim();
