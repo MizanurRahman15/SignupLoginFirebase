@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:layout_gravity="center"
+    android:gravity="center">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Welcome to our Apps!"
+        android:textSize="30sp"
+        android:textColor="@color/black"
+        android:layout_gravity="center"
+        android:gravity="center"
+        android:textStyle="bold"
+         />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btn_logout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@drawable/button_back"
+        android:layout_marginTop="40dp"
+        android:layout_margin="40dp"
+        android:text="Logout"
+        android:textStyle="bold"
+        android:textSize="25sp"
+        android:textColor="@color/white"
+        android:textAllCaps="false"
+        />
+
+</LinearLayout>
